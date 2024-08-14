@@ -3,6 +3,7 @@
 Runs Github Action on **REAL RISC-V board/machine/box**!
 
 ## Core feature
+* REAL RISC-V for faster build! Not QEMU!
 
 ## Installation
 Install [RISC-V builders Github App](https://github.com/apps/riscv-builders) (admin permission is required since we need to install runners for you.)
@@ -56,7 +57,7 @@ Note: *If no builder statisfied the combination of labels, action run will hange
 
 ## Contribute builder
 
-TODO
+Please open a new discussion on [Contribute Builder](https://github.com/riscv-builders/riscv-builders.github.io/discussions/new?category=contribute-builder)
 
 
 ## Roadmap
@@ -69,4 +70,3 @@ TODO
 
 ## SLA
 This project is very early *alpha stage* and *NO WARRENTY*.
-
