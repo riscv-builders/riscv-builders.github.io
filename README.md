@@ -1,27 +1,30 @@
 # RISC-V builders
 
-Runs Github Action on **REAL RISC-V board/machine/box**!
+Runs Github Action on **REAL RISC-V** !
 
-## Core feature
-* REAL RISC-V for faster build! Not QEMU!
+## Core features
+* Native *RISC-V (riscv64)* architecture
+* *Faster* than official runner
+* *Free* for Github opensource project
+* Multiple *SoCs* and *RISC-V extensions* available
 
 ## Installation
-Install [RISC-V builders Github App](https://github.com/apps/riscv-builders) (admin permission is required since we need to install runners for you.)
+Install [RISC-V builders Github App](https://github.com/apps/riscv-builders) 
+
+> Note: admin permission is required since we need to install runners for you.
 
 ## Usage
 
-Change your Github workflow with:
+Change Github workflow with:
 
 ```diff
 - runs-on: ubuntu-latest
 + runs-on: riscv-builders
 ```
-and you are good to Go!!
 
 You can also requires extensions like Bit/Vector, etc.
 
 For example:
-
 ```yaml
 runs-on:
   - riscv-builders
@@ -29,8 +32,9 @@ runs-on:
   - rve-v
 ```
 
-Or specify the RISCV SOC name that you wish to runs on.
+Or specify the RISCV SoC/CPU name that you wish to runs on.
 
+For example:
 ```yaml
 runs-on:
   - riscv-builders
@@ -39,7 +43,7 @@ runs-on:
 
 ### Available labels:
 
-#### SOC
+#### SOC/CPU
 * `soc-spacemit-k1`
 * `soc-thead-1520` *NOT Available for now*
 * `soc-starfive-jh7100`
@@ -52,7 +56,7 @@ runs-on:
 * `rve-zbs`
 * `rve-v`
 
-Note: *If no builder statisfied the combination of labels, action run will hanged FOREVER*
+> Note: If no builder statisfied the combination of labels, action run will *hanged FOREVER* (Github limitation is 35 days).
 
 
 ## Contribute builder
