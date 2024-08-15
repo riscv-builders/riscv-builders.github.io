@@ -41,6 +41,8 @@ runs-on:
   - soc-spacemit-k1
 ```
 
+> NOTE "riscv-builders" MUST be the first label of runs-on
+
 ### Available labels:
 
 #### SOC/CPU
@@ -72,5 +74,13 @@ Please open a new discussion on [Contribute Builder](https://github.com/riscv-bu
 - Free to use if you are a non-profit or for personal use.
 - Not available for commercial organizations *for now*.
 
+## WIKI
+
+Visit [WIKI page](https://github.com/riscv-builders/riscv-builders.github.io/wiki), for further information
+
 ## SLA
 This project is very early *alpha stage* and *NO WARRENTY*.
+
+## Author
+* [mengzhuo](https://github.com/mengzhuo)
+
