@@ -41,6 +41,8 @@ runs-on:
   - soc-spacemit-k1
 ```
 
+Real workflow example: [mengzhuo/GhostWrite](https://github.com/mengzhuo/GhostWrite/blob/main/.github/workflows/test.yml)
+
 > NOTE "riscv-builders" MUST be the first label of runs-on
 
 ### Available labels:
@@ -63,7 +65,8 @@ runs-on:
 
 ## Contribute builder
 
-Please open a new discussion on [Contribute Builder](https://github.com/riscv-builders/riscv-builders.github.io/discussions/new?category=contribute-builder)
+For remote podman builders, please open a new issue on [Contribute Builder](https://github.com/riscv-builders/riscv-builders.github.io/discussions/new?category=contribute-builder)
+For real builder send to us, please contact `tech<at>riscv.builders`, (change `<at>` to @) 
 
 
 ## Roadmap
