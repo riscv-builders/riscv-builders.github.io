@@ -41,7 +41,7 @@ runs-on:
   - soc-spacemit-k1
 ```
 
-Real workflow example: [mengzhuo/GhostWrite](https://github.com/mengzhuo/GhostWrite/blob/main/.github/workflows/test.yml)
+Real workflow example: [mengzhuo/GhostWrite](https://github.com/mengzhuo/GhostWrite/blob/main/.github/workflows/run.yml)
 
 > NOTE "riscv-builders" MUST be the first label of runs-on
 
