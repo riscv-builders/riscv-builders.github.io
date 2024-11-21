@@ -1,21 +1,21 @@
 # RISC-V builders
 
-Runs Github Action on **REAL RISC-V** !
+Runs GitHub Action on **REAL RISC-V** !
 
 ## Core features
 * Native *RISC-V (riscv64)* architecture
 * *Faster* than official runner
-* *Free* for Github opensource project
+* *Free* for GitHub opensource project
 * Multiple *SoCs* and *RISC-V extensions* available
 
 ## Installation
-Install [RISC-V builders Github App](https://github.com/apps/riscv-builders) 
+Install [RISC-V builders GitHub App](https://github.com/apps/riscv-builders) 
 
 > Note: admin permission is required since we need to install runners for you.
 
 ## Usage
 
-Change Github workflow with:
+Change GitHub workflow with:
 
 ```diff
 - runs-on: ubuntu-latest
@@ -32,7 +32,7 @@ runs-on:
   - rve-v
 ```
 
-Or specify the RISCV SoC/CPU name that you wish to runs on.
+Or specify the RISCV SoC/CPU name that you wish to run on.
 
 For example:
 ```yaml
@@ -52,7 +52,7 @@ Real workflow example: [mengzhuo/GhostWrite](https://github.com/mengzhuo/GhostWr
 * `soc-thead-1520` *NOT Available for now*
 * `soc-starfive-jh7100`
 
-#### RISC-V extenstions
+#### RISC-V extensions
 
 * `rve-zba`
 * `rve-zbb`
@@ -60,7 +60,7 @@ Real workflow example: [mengzhuo/GhostWrite](https://github.com/mengzhuo/GhostWr
 * `rve-zbs`
 * `rve-v`
 
-> Note: If no builder statisfied the combination of labels, action run will *hanged FOREVER* (Github limitation is 35 days).
+> Note: If no builder satisfied the combination of labels, action run will *hang FOREVER* (GitHub limitation is 35 days).
 
 
 ## Contribute builder
@@ -83,7 +83,7 @@ For real builder send to us, please contact `tech<at>riscv.builders`, (change `<
 Visit [WIKI page](https://github.com/riscv-builders/riscv-builders.github.io/wiki), for further information
 
 ## SLA
-This project is very early *alpha stage* and *NO WARRENTY*.
+This project is very early *alpha stage* and *NO WARRANTY*.
 
 ## Author
 * [mengzhuo](https://github.com/mengzhuo)
