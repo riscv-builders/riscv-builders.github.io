@@ -1,5 +1,9 @@
 # RISC-V builders
 
+# This Project Deprecated!!!
+
+Please use https://github.com/riseproject-dev/riscv-runner for better exprience.
+
 Runs GitHub Action on **REAL RISC-V** !
 
 ## Core features
